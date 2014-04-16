@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC9B1A371649EFE300B65651 /* UIGestureRecognizer+MOViewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9B1A361649EFE300B65651 /* UIGestureRecognizer+MOViewAdditions.m */; };
+		FC9B1A89164A63A000B65651 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC9B1A88164A63A000B65651 /* QuartzCore.framework */; };
+		FC9B1A8C164A697100B65651 /* MOItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9B1A8B164A697100B65651 /* MOItemView.m */; };
+		FC9E3D1A1647FB4300001487 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC9E3D191647FB4300001487 /* UIKit.framework */; };
+		FC9E3D1C1647FB4300001487 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC9E3D1B1647FB4300001487 /* Foundation.framework */; };
+		FC9E3D1E1647FB4300001487 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC9E3D1D1647FB4300001487 /* CoreGraphics.framework */; };
+		FC9E3D241647FB4300001487 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC9E3D221647FB4300001487 /* InfoPlist.strings */; };
+		FC9E3D261647FB4300001487 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9E3D251647FB4300001487 /* main.m */; };
+		FC9E3D2A1647FB4300001487 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9E3D291647FB4300001487 /* AppDelegate.m */; };
+		FC9E3D2C1647FB4300001487 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FC9E3D2B1647FB4300001487 /* Default.png */; };
+		FC9E3D2E1647FB4300001487 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC9E3D2D1647FB4300001487 /* Default@2x.png */; };
+		FC9E3D301647FB4300001487 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC9E3D2F1647FB4300001487 /* Default-568h@2x.png */; };
+		FC9E3D381647FB7400001487 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9E3D371647FB7400001487 /* TestViewController.m */; };
+		FC9E3D3B1647FC6E00001487 /* MOView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9E3D3A1647FC6E00001487 /* MOView.m */; };
+		FC9E3D701648B34A00001487 /* MOImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9E3D6F1648B34A00001487 /* MOImageView.m */; };
+		FC9E3D851648F15600001487 /* MOStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9E3D841648F15600001487 /* MOStrategy.m */; };
+		FCEA27F016523B6700701F3C /* UIView+MOViewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEA27EF16523B6700701F3C /* UIView+MOViewAdditions.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FC9B1A351649EFE300B65651 /* UIGestureRecognizer+MOViewAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIGestureRecognizer+MOViewAdditions.h"; sourceTree = "<group>"; };
+		FC9B1A361649EFE300B65651 /* UIGestureRecognizer+MOViewAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIGestureRecognizer+MOViewAdditions.m"; sourceTree = "<group>"; };
+		FC9B1A88164A63A000B65651 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		FC9B1A8A164A697100B65651 /* MOItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOItemView.h; sourceTree = "<group>"; };
+		FC9B1A8B164A697100B65651 /* MOItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOItemView.m; sourceTree = "<group>"; };
+		FC9E3D151647FB4300001487 /* MultiOperationScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiOperationScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC9E3D191647FB4300001487 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FC9E3D1B1647FB4300001487 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FC9E3D1D1647FB4300001487 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FC9E3D211647FB4300001487 /* MultiOperationScrollView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MultiOperationScrollView-Info.plist"; sourceTree = "<group>"; };
+		FC9E3D231647FB4300001487 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FC9E3D251647FB4300001487 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC9E3D271647FB4300001487 /* MultiOperationScrollView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MultiOperationScrollView-Prefix.pch"; sourceTree = "<group>"; };
+		FC9E3D281647FB4300001487 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FC9E3D291647FB4300001487 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FC9E3D2B1647FB4300001487 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		FC9E3D2D1647FB4300001487 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		FC9E3D2F1647FB4300001487 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		FC9E3D361647FB7400001487 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		FC9E3D371647FB7400001487 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		FC9E3D391647FC6E00001487 /* MOView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOView.h; sourceTree = "<group>"; };
+		FC9E3D3A1647FC6E00001487 /* MOView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOView.m; sourceTree = "<group>"; };
+		FC9E3D6E1648B34900001487 /* MOImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOImageView.h; sourceTree = "<group>"; };
+		FC9E3D6F1648B34A00001487 /* MOImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOImageView.m; sourceTree = "<group>"; };
+		FC9E3D831648F15600001487 /* MOStrategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOStrategy.h; sourceTree = "<group>"; };
+		FC9E3D841648F15600001487 /* MOStrategy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOStrategy.m; sourceTree = "<group>"; };
+		FCEA27EE16523B6700701F3C /* UIView+MOViewAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MOViewAdditions.h"; sourceTree = "<group>"; };
+		FCEA27EF16523B6700701F3C /* UIView+MOViewAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MOViewAdditions.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC9E3D121647FB4300001487 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC9B1A89164A63A000B65651 /* QuartzCore.framework in Frameworks */,
+				FC9E3D1A1647FB4300001487 /* UIKit.framework in Frameworks */,
+				FC9E3D1C1647FB4300001487 /* Foundation.framework in Frameworks */,
+				FC9E3D1E1647FB4300001487 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC9E3D0A1647FB4300001487 = {
+			isa = PBXGroup;
+			children = (
+				FC9B1A88164A63A000B65651 /* QuartzCore.framework */,
+				FC9E3D1F1647FB4300001487 /* MultiOperationScrollView */,
+				FC9E3D181647FB4300001487 /* Frameworks */,
+				FC9E3D161647FB4300001487 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC9E3D161647FB4300001487 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC9E3D151647FB4300001487 /* MultiOperationScrollView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC9E3D181647FB4300001487 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC9E3D191647FB4300001487 /* UIKit.framework */,
+				FC9E3D1B1647FB4300001487 /* Foundation.framework */,
+				FC9E3D1D1647FB4300001487 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC9E3D1F1647FB4300001487 /* MultiOperationScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				FCEA27EE16523B6700701F3C /* UIView+MOViewAdditions.h */,
+				FCEA27EF16523B6700701F3C /* UIView+MOViewAdditions.m */,
+				FC9E3D281647FB4300001487 /* AppDelegate.h */,
+				FC9E3D291647FB4300001487 /* AppDelegate.m */,
+				FC9B1A351649EFE300B65651 /* UIGestureRecognizer+MOViewAdditions.h */,
+				FC9B1A361649EFE300B65651 /* UIGestureRecognizer+MOViewAdditions.m */,
+				FC9E3D201647FB4300001487 /* Supporting Files */,
+				FC9E3D361647FB7400001487 /* TestViewController.h */,
+				FC9E3D371647FB7400001487 /* TestViewController.m */,
+				FC9E3D391647FC6E00001487 /* MOView.h */,
+				FC9E3D3A1647FC6E00001487 /* MOView.m */,
+				FC9E3D6E1648B34900001487 /* MOImageView.h */,
+				FC9E3D6F1648B34A00001487 /* MOImageView.m */,
+				FC9E3D831648F15600001487 /* MOStrategy.h */,
+				FC9E3D841648F15600001487 /* MOStrategy.m */,
+				FC9B1A8A164A697100B65651 /* MOItemView.h */,
+				FC9B1A8B164A697100B65651 /* MOItemView.m */,
+			);
+			path = MultiOperationScrollView;
+			sourceTree = "<group>";
+		};
+		FC9E3D201647FB4300001487 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC9E3D211647FB4300001487 /* MultiOperationScrollView-Info.plist */,
+				FC9E3D221647FB4300001487 /* InfoPlist.strings */,
+				FC9E3D251647FB4300001487 /* main.m */,
+				FC9E3D271647FB4300001487 /* MultiOperationScrollView-Prefix.pch */,
+				FC9E3D2B1647FB4300001487 /* Default.png */,
+				FC9E3D2D1647FB4300001487 /* Default@2x.png */,
+				FC9E3D2F1647FB4300001487 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC9E3D141647FB4300001487 /* MultiOperationScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC9E3D331647FB4300001487 /* Build configuration list for PBXNativeTarget "MultiOperationScrollView" */;
+			buildPhases = (
+				FC9E3D111647FB4300001487 /* Sources */,
+				FC9E3D121647FB4300001487 /* Frameworks */,
+				FC9E3D131647FB4300001487 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultiOperationScrollView;
+			productName = MultiOperationScrollView;
+			productReference = FC9E3D151647FB4300001487 /* MultiOperationScrollView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC9E3D0C1647FB4300001487 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = lieyunye;
+			};
+			buildConfigurationList = FC9E3D0F1647FB4300001487 /* Build configuration list for PBXProject "MultiOperationScrollView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FC9E3D0A1647FB4300001487;
+			productRefGroup = FC9E3D161647FB4300001487 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC9E3D141647FB4300001487 /* MultiOperationScrollView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC9E3D131647FB4300001487 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC9E3D241647FB4300001487 /* InfoPlist.strings in Resources */,
+				FC9E3D2C1647FB4300001487 /* Default.png in Resources */,
+				FC9E3D2E1647FB4300001487 /* Default@2x.png in Resources */,
+				FC9E3D301647FB4300001487 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC9E3D111647FB4300001487 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC9E3D261647FB4300001487 /* main.m in Sources */,
+				FC9E3D2A1647FB4300001487 /* AppDelegate.m in Sources */,
+				FC9E3D381647FB7400001487 /* TestViewController.m in Sources */,
+				FC9E3D3B1647FC6E00001487 /* MOView.m in Sources */,
+				FC9E3D701648B34A00001487 /* MOImageView.m in Sources */,
+				FC9E3D851648F15600001487 /* MOStrategy.m in Sources */,
+				FC9B1A371649EFE300B65651 /* UIGestureRecognizer+MOViewAdditions.m in Sources */,
+				FC9B1A8C164A697100B65651 /* MOItemView.m in Sources */,
+				FCEA27F016523B6700701F3C /* UIView+MOViewAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FC9E3D221647FB4300001487 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC9E3D231647FB4300001487 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC9E3D311647FB4300001487 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FC9E3D321647FB4300001487 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC9E3D341647FB4300001487 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultiOperationScrollView/MultiOperationScrollView-Prefix.pch";
+				INFOPLIST_FILE = "MultiOperationScrollView/MultiOperationScrollView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FC9E3D351647FB4300001487 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultiOperationScrollView/MultiOperationScrollView-Prefix.pch";
+				INFOPLIST_FILE = "MultiOperationScrollView/MultiOperationScrollView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC9E3D0F1647FB4300001487 /* Build configuration list for PBXProject "MultiOperationScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC9E3D311647FB4300001487 /* Debug */,
+				FC9E3D321647FB4300001487 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC9E3D331647FB4300001487 /* Build configuration list for PBXNativeTarget "MultiOperationScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC9E3D341647FB4300001487 /* Debug */,
+				FC9E3D351647FB4300001487 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC9E3D0C1647FB4300001487 /* Project object */;
+}
